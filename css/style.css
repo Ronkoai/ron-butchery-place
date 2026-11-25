@@ -451,6 +451,32 @@ section { padding: 76px 0; }
   background: var(--brass);
 }
 
+/* ---------- wide figure ---------- */
+.wide-figure { margin: 0; }
+.wide-figure img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.wide-figure figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 18px;
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: var(--slate);
+  line-height: 1.5;
+}
+.wide-figure figcaption .meta {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass);
+  white-space: nowrap;
+}
+
 /* ---------- chapters ---------- */
 .chapters { display: grid; grid-template-columns: 1fr 1fr; gap: 0 54px; }
 .chapter {
