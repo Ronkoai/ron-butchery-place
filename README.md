@@ -13,9 +13,14 @@ archive.html            Archive — 필터 갤러리(전체/출장·세미나/�
 contact.html            Contact — 메일, 위치·활동 범위, 자주 묻는 세 가지
 css/style.css           전체 스타일 (컬러·폰트 토큰은 :root)
 js/main.js              모바일 메뉴 토글, 스크롤 등장 효과
+js/i18n.js              언어 전환 런타임(헤더 메뉴·?lang=·localStorage)
+js/i18n-data.js         ko·ja·zh·es 사전 번들(생성 파일 — 직접 고치지 않음)
 js/gallery.js           data/gallery.json을 읽어 갤러리·필터·라이트박스를 그림
 data/gallery.json       사진 목록 (현재 55장)
+data/i18n/*.json        다국어 사전(ko·ja·zh·es)과 사진 캡션(gallery.<lang>.json)
 scripts/make_thumbs.py  thumbs/ 축소본(480px) 생성 + 붙여넣을 JSON 조각 출력
+scripts/build_i18n.py   data/i18n/*.json → js/i18n-data.js 번들
+scripts/check_i18n.py   빠진 번역 키·사진 캡션 검사
 images/home/            히어로 사진(흑백 발골)
 images/shared/          스탬프 로고
 images/archive/         아카이브 사진 (YYYY/YYYY-MM-DD_slug/파일명.jpg + thumbs/)
@@ -55,6 +60,15 @@ images/archive/         아카이브 사진 (YYYY/YYYY-MM-DD_slug/파일명.jpg 
 | `recent` | Home 카드용 (현재 미사용) |
 
 지역·소재 태그(`singapore`, `hk`, `usa`, `japan`, `laos`, `cambodia`, `thailand`, `butchery`, `rnd`, `cycling`, `golf`, `film`, `family`)는 함께 붙여 두면 나중에 필터를 늘리기 쉬워요. 새 필터는 `archive.html`의 `.chip` 한 줄만 추가하면 됩니다.
+
+## 다국어 (EN · KO · JA · ZH · ES)
+
+- 기본 언어는 **영어**입니다. `?lang=` 쿼리도, `localStorage`(키 `ronko.lang`) 값도 없으면 항상 영어로 열립니다.
+- 지원 언어: `en` English / `ko` 한국어 / `ja` 日本語 / `zh` 简体中文 / `es` Español. `https://ronkoai.github.io/ron-butchery-place/?lang=ko` 처럼 공유 링크를 만들 수 있고, 헤더 오른쪽 지구본 버튼에서 바로 바꾸면 선택이 브라우저에 저장됩니다.
+- 화면 문구는 `data/i18n/<lang>.json`에 있습니다. HTML에는 `data-i18n="키"`(텍스트), `data-i18n-html="키"`(`<em>`·`<a>` 포함), `data-i18n-attr="alt:키"`(속성)로 키만 달고, 영어 원문은 HTML에 그대로 둡니다(영어는 번역 파일이 아니라 HTML이 원본).
+- 사진 캡션은 `data/i18n/gallery.<lang>.json` — 사진 `src`별 `title`·`alt`, 그리고 `places`에 장소 라벨을 넣습니다.
+- 문구를 고친 뒤에는 `python3 scripts/build_i18n.py`로 `js/i18n-data.js`를 다시 만들고, `python3 scripts/check_i18n.py`로 빠진 키가 없는지 확인하세요.
+- 직장 상호 비공개 원칙은 번역에도 그대로 적용됩니다 — 체크 스크립트가 번역문에 `deeplant`/`딥플랜트`가 들어가면 실패합니다.
 
 ## 확인된 것만 쓰는 원칙
 
