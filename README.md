@@ -63,7 +63,7 @@ images/archive/         아카이브 사진 (YYYY/YYYY-MM-DD_slug/파일명.jpg 
 - 가족·지인 얼굴이 나오는 컷은 본인 승인 범위 안에서만 넣었습니다.
 - 연대기의 입·퇴사 연월은 이력서(잡코리아·경력기술서) 기준입니다. 현 직장(푸드테크 스타트업)은 2023.12 입사.
 - 재직 중인 회사 이름과 제품명은 사이트 어디에도 노출하지 않습니다 — 서술·연대기·캡션 모두 "a food-tech startup"으로 표기합니다. 연락처 메일 `ron@deeplant.com`만 예외입니다(본인 확인).
-- 유튜브는 `https://www.youtube.com/@cpo_ron` (`C레벨 브이로그`) — `contact.html`의 `YouTube` 행과 `index.html` CTA·푸터, 각 페이지 푸터에 링크로 걸려 있습니다.
+- 유튜브는 `https://www.youtube.com/@cpo_ron` (`고기인문학 | 고용재`) — `contact.html`의 `YouTube` 행과 `index.html` CTA·푸터, 각 페이지 푸터에 링크로 걸려 있습니다.
 
 ## 아직 없는 것
 
