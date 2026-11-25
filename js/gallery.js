@@ -1,9 +1,22 @@
 /* Photo collections rendered from data/gallery.json — no dependencies.
-   Add a photo = drop the file in images/archive/... and add one object to the JSON. */
+   Add a photo = drop the file in images/archive/... , run scripts/make_thumbs.py,
+   and add one object to the JSON.
+
+   Containers
+     [data-gallery="recent"]   cards for the home page  (tag: recent)
+     [data-gallery="archive"]  full masonry grid        (filtered by [data-filters])
+   Filters
+     [data-filters] > button.chip[data-filter="all|trips|craft|travel"]
+     [data-filter-count]       shows how many photographs the filter holds
+*/
 (function () {
   'use strict';
 
   var DATA_URL = 'data/gallery.json';
+  var items = [];
+  var activeFilter = 'all';
+  var archiveItems = [];
+  var archiveIndex = 0;
 
   /* ---------- data ---------- */
 
@@ -45,12 +58,18 @@
     return 0;
   }
 
+  function matches(item, key) {
+    if (!key || key === 'all') return true;
+    if (key === 'recent') return item.tags.indexOf('recent') !== -1;
+    return item.tags.indexOf(key) !== -1;
+  }
+
   /* ---------- lightbox ---------- */
 
   var lb = null;
   var lbImg = null;
   var lbCaption = null;
-  var lbItems = [];
+  var lbSet = [];
   var lbIndex = 0;
   var lbReturn = null;
 
@@ -107,7 +126,7 @@
   }
 
   function trapFocus(event) {
-    var buttons = lb.querySelectorAll('button');
+    var buttons = lb.querySelectorAll('button:not([hidden])');
     if (!buttons.length) return;
     var first = buttons[0];
     var last = buttons[buttons.length - 1];
@@ -121,27 +140,28 @@
   }
 
   function showCurrent() {
-    var item = lbItems[lbIndex];
+    var item = lbSet[lbIndex];
     if (!item) return;
     lbImg.src = item.full;
     lbImg.alt = item.alt;
     var bits = [dateLabel(item.date), item.title, item.place].filter(Boolean);
-    lbCaption.textContent = bits.join(' \u00b7 ');
-    var many = lbItems.length > 1;
+    var counter = lbSet.length > 1 ? (lbIndex + 1) + ' / ' + lbSet.length : '';
+    lbCaption.textContent = bits.concat(counter ? [counter] : []).join('  \u00b7  ');
+    var many = lbSet.length > 1;
     lb.querySelector('.lightbox-prev').hidden = !many;
     lb.querySelector('.lightbox-next').hidden = !many;
     lb.setAttribute('aria-label', item.title ? 'Photo viewer: ' + item.title : 'Photo viewer');
   }
 
   function step(delta) {
-    if (lbItems.length < 2) return;
-    lbIndex = (lbIndex + delta + lbItems.length) % lbItems.length;
+    if (lbSet.length < 2) return;
+    lbIndex = (lbIndex + delta + lbSet.length) % lbSet.length;
     showCurrent();
   }
 
-  function openLightbox(items, index, trigger) {
+  function openLightbox(set, index, trigger) {
     buildLightbox();
-    lbItems = items;
+    lbSet = set;
     lbIndex = index;
     lbReturn = trigger || document.activeElement;
     showCurrent();
@@ -162,7 +182,7 @@
 
   /* ---------- rendering ---------- */
 
-  function photoFigure(item, items, index) {
+  function photoFigure(item, set, index) {
     var figure = document.createElement('figure');
     figure.className = 'photo';
 
@@ -181,7 +201,7 @@
 
     button.appendChild(img);
     button.addEventListener('click', function () {
-      openLightbox(items, index, button);
+      openLightbox(set, index, button);
     });
 
     var caption = document.createElement('figcaption');
@@ -250,11 +270,8 @@
     return card;
   }
 
-  function fillContainer(container, items) {
-    var isRecent = String(container.getAttribute('data-gallery') || '').toLowerCase() === 'recent';
-
-    if (!items.length) {
-      /* Static fallback cards stay as they are. */
+  function fillContainer(container, selected, isRecent) {
+    if (!selected.length) {
       if (container.hasAttribute('data-fallback') || container.querySelector('.gallery-empty')) return;
       var message = container.getAttribute('data-empty');
       if (!message) return;
@@ -266,27 +283,52 @@
     }
 
     container.innerHTML = '';
-    items.forEach(function (item, index) {
-      container.appendChild(isRecent ? recentCard(item) : photoFigure(item, items, index));
+    selected.forEach(function (item, index) {
+      container.appendChild(isRecent ? recentCard(item) : photoFigure(item, selected, index));
     });
   }
 
-  function matches(item, selector) {
-    if (selector === 'recent') return item.tags.indexOf('recent') !== -1;
-    var wanted = parseTags(selector);
-    return item.tags.some(function (tag) {
-      return wanted.indexOf(tag) !== -1;
+  function renderArchive() {
+    var container = document.querySelector('[data-gallery="archive"]');
+    if (!container) return;
+    archiveItems = items.filter(function (item) {
+      return matches(item, activeFilter);
+    }).sort(byDateDesc);
+    fillContainer(container, archiveItems, false);
+
+    var count = document.querySelector('[data-filter-count]');
+    if (count) {
+      count.textContent = archiveItems.length + (archiveItems.length === 1 ? ' photograph' : ' photographs');
+    }
+  }
+
+  function wireFilters() {
+    var bar = document.querySelector('[data-filters]');
+    if (!bar) return;
+    var chips = bar.querySelectorAll('.chip');
+    Array.prototype.forEach.call(chips, function (chip) {
+      chip.addEventListener('click', function () {
+        activeFilter = chip.getAttribute('data-filter') || 'all';
+        Array.prototype.forEach.call(chips, function (other) {
+          other.setAttribute('aria-pressed', other === chip ? 'true' : 'false');
+        });
+        renderArchive();
+      });
     });
   }
 
-  function renderAll(items) {
+  function renderAll() {
     var containers = document.querySelectorAll('[data-gallery]');
     Array.prototype.forEach.call(containers, function (container) {
-      var selector = String(container.getAttribute('data-gallery') || '').trim().toLowerCase();
-      var selected = selector ? items.filter(function (item) {
-        return matches(item, selector);
+      var key = String(container.getAttribute('data-gallery') || '').trim().toLowerCase();
+      if (key === 'archive') {
+        renderArchive();
+        return;
+      }
+      var selected = key ? items.filter(function (item) {
+        return matches(item, key);
       }).sort(byDateDesc) : [];
-      fillContainer(container, selected);
+      fillContainer(container, selected, key === 'recent');
     });
   }
 
@@ -294,6 +336,7 @@
 
   function init() {
     if (!document.querySelector('[data-gallery]')) return;
+    wireFilters();
 
     fetch(DATA_URL, { cache: 'no-cache' })
       .then(function (response) {
@@ -302,11 +345,13 @@
       })
       .then(function (data) {
         var raw = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : []);
-        renderAll(raw.map(normalize).filter(Boolean));
+        items = raw.map(normalize).filter(Boolean);
+        renderAll();
       })
       .catch(function () {
         /* Missing or unreadable data file: keep the fallbacks and empty states. */
-        renderAll([]);
+        items = [];
+        renderAll();
       });
   }
 
