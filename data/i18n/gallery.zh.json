@@ -1,0 +1,237 @@
+{
+  "places": {
+    "Singapore": "新加坡",
+    "Hong Kong": "香港",
+    "Boston, USA": "美国 波士顿",
+    "New York, USA": "美国 纽约",
+    "Nagoya, Japan": "日本 名古屋",
+    "Japan": "日本",
+    "Phnom Penh, Cambodia": "柬埔寨 金边",
+    "Bangkok, Thailand": "泰国 曼谷",
+    "Laos": "老挝",
+    "Korea": "韩国",
+    "Seoul, Korea": "韩国 首尔"
+  },
+  "items": {
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_07_outdoor_cutting_portrait.jpg": {
+      "title": "在户外大师班分割整块西冷",
+      "alt": "身穿白色厨师服的 Ron Ko 在新加坡屋顶露台上分割红色砧板上的整块韩牛西冷，背后是城市天际线"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_08_outdoor_cutting_demo.jpg": {
+      "title": "分割演示，背后是新加坡天际线",
+      "alt": "Ron Ko 在户外大块肉托盘旁修整韩牛西冷，背景是城市高楼"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_09_outdoor_grill_evening.jpg": {
+      "title": "夜间韩牛烧烤品鉴",
+      "alt": "绿色 HANWOO KOREAN BEEF 横幅下，主厨们在夜市风格品鉴会上烤韩牛，客人端着盘子与葡萄酒"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_10_outdoor_hanwoo_booth.jpg": {
+      "title": "开餐前的 HANWOO 展台",
+      "alt": "户外露台上的黑色 HANWOO KOREAN BEEF 展台，堆着盘子，摆着大块牛肉"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_01_embassy_hanwoo_booth.jpg": {
+      "title": "韩牛展台，新加坡",
+      "alt": "入夜后，新加坡 HANWOO 展台前身穿白色厨师服的 Ron Ko 与团队"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_02_embassy_hanwoo_booth_group.jpg": {
+      "title": "服务结束后的展台团队",
+      "alt": "夜晚在新加坡韩牛展台横幅前的团队合影"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_03_embassy_reception_stage.jpg": {
+      "title": "招待会舞台——2026 开天节",
+      "alt": "韩国驻新加坡大使馆招待会现场写着 National Foundation Day 2026 的舞台横幅"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_04_bidfood_showroom_demo.jpg": {
+      "title": "Bidfood 展厅——演示台",
+      "alt": "Bidfood 新加坡展厅的演示台，摆着大块牛肉与产品样品"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_05_bidfood_team_board.jpg": {
+      "title": "Bidfood 组织架构板——餐饮规格、零售、采购",
+      "alt": "Bidfood 新加坡办公室墙上的组织架构板，列有餐饮规格、零售与采购团队"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_06_distributor_product_shelf.jpg": {
+      "title": "经销商货架——烟熏伊比利亚猪肉与鸭肉",
+      "alt": "新加坡经销商门店的冷藏货架，陈列烟熏伊比利亚猪肉与烟熏鸭产品"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_03_butchery_show.jpg": {
+      "title": "在台上分解韩牛大部位",
+      "alt": "身穿黑色厨师服、戴手套的 Ron Ko 在讲座上演示韩牛大部位分割"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_01_speaking_demo.jpg": {
+      "title": "面向主厨与买家的大部位演示",
+      "alt": "香港韩牛讲座上，Ron Ko 戴着薄手套讲解部位"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_02_chef_portrait.jpg": {
+      "title": "开讲之前",
+      "alt": "香港讲座前，身穿厨师服与围裙的 Ron Ko 在厨房里的肖像"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_04_waving_with_chef.jpg": {
+      "title": "演示后与主办主厨",
+      "alt": "香港演示结束后，Ron Ko 与主办主厨向会场挥手"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_05_group_with_team.jpg": {
+      "title": "与活动团队",
+      "alt": "香港韩牛讲座后，Ron Ko 与主办方及主厨们合影"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_06_plating.jpg": {
+      "title": "韩牛摆盘",
+      "alt": "香港讲座期间完成出品的韩牛一盘"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_06_kitchen_line_film.jpg": {
+      "title": "JIN-JEE 的烤炉线",
+      "alt": "波士顿 JIN-JEE 的厨房出品线与柴火炉，胶片拍摄"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_05_kitchen_team_film.jpg": {
+      "title": "厨房团队",
+      "alt": "站在出菜口前的 JIN-JEE 厨房团队，胶片拍摄"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_07_store_interior_film.jpg": {
+      "title": "开餐前的餐厅",
+      "alt": "波士顿韩式烤肉店空荡的餐厅，胶片拍摄"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_01_jinjie_sign_selfie.jpg": {
+      "title": "JIN-JEE",
+      "alt": "Ron Ko 在波士顿 JIN-JEE 招牌前"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_02_jinjie_group_dinner.jpg": {
+      "title": "与团队的晚餐",
+      "alt": "在波士顿，收工后与餐厅团队共进晚餐"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_04_grill_table.jpg": {
+      "title": "备好餐的烤炉餐桌",
+      "alt": "波士顿餐厅里摆好烤炉与小菜的餐桌"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_08_airplane_window.jpg": {
+      "title": "从波士顿回首尔",
+      "alt": "从波士顿返程的飞机舷窗外景色"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_02_night_skyline.jpg": {
+      "title": "从酒店窗户看曼哈顿",
+      "alt": "从酒店窗户望见的曼哈顿夜景天际线"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_01_broadway_marquee.jpg": {
+      "title": "夜里的百老汇",
+      "alt": "夜里百老汇亮着灯的阿拉丁戏院招牌"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_03_empire_state_street.jpg": {
+      "title": "黄昏的帝国大厦",
+      "alt": "黄昏时分望向帝国大厦的街道"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_04_film_port_authority.jpg": {
+      "title": "胶片里的港务局",
+      "alt": "从街上拍到的港务局巴士总站，胶片拍摄"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_06_knife_shop.jpg": {
+      "title": "刀具店，名古屋",
+      "alt": "家庭旅行时走进的名古屋刀具店内部"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_02_matsusaka_beef_panel.jpg": {
+      "title": "松阪牛，品种的历史",
+      "alt": "介绍松阪牛历史的展示板"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_03_tajima_cattle_history.jpg": {
+      "title": "但马牛的血统",
+      "alt": "展示但马牛血统脉络的展览"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_01_unagi_rice_box.jpg": {
+      "title": "鳗鱼饭三吃",
+      "alt": "在名古屋吃的鳗鱼木桶饭"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_04_family_travel.jpg": {
+      "title": "在路上",
+      "alt": "在日本城市之间移动的家人"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_05_cafe_drinks.jpg": {
+      "title": "咖啡馆小坐",
+      "alt": "旅途中咖啡馆桌上的饮品"
+    },
+    "images/archive/2025/2025-01-11_japan_family/japan_07_night_street.jpg": {
+      "title": "夜晚的街道，名古屋",
+      "alt": "与家人一起走过的名古屋夜晚街道"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_01_venue_screen.jpg": {
+      "title": "讲座会场，金边",
+      "alt": "金边讲座会场的大屏幕"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_02_hotel_lounge.jpg": {
+      "title": "酒店酒廊",
+      "alt": "金边酒店的酒廊吧台"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_03_the_atom.jpg": {
+      "title": "THE ATOM 展厅",
+      "alt": "金边 THE ATOM 展厅入口"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_04_phnom_penh_towers.jpg": {
+      "title": "街上的金边",
+      "alt": "金边正在建设中的公寓高楼"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_05_booyoung_town.jpg": {
+      "title": "Booyoung Town",
+      "alt": "金边 Booyoung Town 的招牌"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_06_street.jpg": {
+      "title": "街道，金边",
+      "alt": "金边一条普通的街道"
+    },
+    "images/archive/2025/2025-04-20_thailand/th_01_hotel_garden.jpg": {
+      "title": "酒店花园，曼谷",
+      "alt": "2025年行程中到访的曼谷酒店花园"
+    },
+    "images/archive/2025/2025-10-02_laos/la_01_hanwoo_seminar.jpg": {
+      "title": "手拿部位讲韩牛",
+      "alt": "Ron Ko 在老挝讲座上拿着麦克风展示韩牛大块部位"
+    },
+    "images/archive/2024/2024-07-27_rnd_expo/rnd_01_expo_tasting_booth.jpg": {
+      "title": "品鉴与咨询展台",
+      "alt": "食品展会的产品品鉴与咨询展台，柜台后的团队"
+    },
+    "images/archive/2026/2026-09_butchery/butchery_01_cutting.jpg": {
+      "title": "分解韩牛大部位",
+      "alt": "双手在砧板上将刀切入修整好的韩牛大块肉"
+    },
+    "images/archive/2026/2026-09_butchery/butchery_02_cutting2.jpg": {
+      "title": "握刀的手",
+      "alt": "在韩牛大块肉上下刀的近景"
+    },
+    "images/archive/2026/2026-06-26_workbench/butchery_03_knife_rack.jpg": {
+      "title": "收工时的刀架",
+      "alt": "一天结束时分割间的刀架"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_01_portrait.jpg": {
+      "title": "戴好头盔，出发",
+      "alt": "骑行前戴着头盔的骑行肖像"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_02_pristine.jpg": {
+      "title": "PRISTINE",
+      "alt": "2018年骑行途中停留的 PRISTINE"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_03_group.jpg": {
+      "title": "骑行后的休息",
+      "alt": "2018年骑行后休息的同行者"
+    },
+    "images/archive/2014/2014-05-18_misiryeong/hobby_cycling_05_misiryeong.jpg": {
+      "title": "弥矢岭山口",
+      "alt": "2014年，弥矢岭山顶"
+    },
+    "images/archive/2026/2026-07-30_golf/hobby_golf_01_course.jpg": {
+      "title": "清晨一轮",
+      "alt": "晨光中的高尔夫球场"
+    },
+    "images/archive/2026/2026-09-03_golf/hobby_golf_02_selfie.jpg": {
+      "title": "在发球台",
+      "alt": "在高尔夫球场上的自拍"
+    },
+    "images/archive/2026/2026-09-03_golf/hobby_golf_03_group.jpg": {
+      "title": "四人一组",
+      "alt": "球场上四人的合影"
+    },
+    "images/archive/2026/2026_film/hobby_film_01_camera_selfie.jpg": {
+      "title": "那台老胶片相机",
+      "alt": "手持胶片相机的自拍"
+    },
+    "images/archive/2026/2026_film/hobby_film_02_insadong_people.jpg": {
+      "title": "胶片里的仁寺洞",
+      "alt": "仁寺洞街上的人群，胶片拍摄"
+    }
+  }
+}

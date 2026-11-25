@@ -1,0 +1,237 @@
+{
+  "places": {
+    "Singapore": "싱가포르",
+    "Hong Kong": "홍콩",
+    "Boston, USA": "미국 보스턴",
+    "New York, USA": "미국 뉴욕",
+    "Nagoya, Japan": "일본 나고야",
+    "Japan": "일본",
+    "Phnom Penh, Cambodia": "캄보디아 프놈펜",
+    "Bangkok, Thailand": "태국 방콕",
+    "Laos": "라오스",
+    "Korea": "대한민국",
+    "Seoul, Korea": "대한민국 서울"
+  },
+  "items": {
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_07_outdoor_cutting_portrait.jpg": {
+      "title": "야외 마스터클래스에서 등심 한 덩이를 자르다",
+      "alt": "흰 셰프복 차림의 Ron Ko가 싱가포르 루프탑 테라스에서 빨간 도마 위에 놓인 한우 등심 한 덩이를 자르고 있다, 뒤로 싱가포르 스카이라인"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_08_outdoor_cutting_demo.jpg": {
+      "title": "정육 시연, 뒤로 싱가포르 스카이라인",
+      "alt": "야외에서 대분할육 쟁반 옆에서 한우 등심을 정형하는 Ron Ko, 배경에 도시의 고층 빌딩"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_09_outdoor_grill_evening.jpg": {
+      "title": "저녁 한우 그릴 시식",
+      "alt": "초록색 HANWOO KOREAN BEEF 배너 아래 야시장 분위기의 시식회에서 한우를 굽는 셰프들, 접시와 와인을 든 손님들"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_10_outdoor_hanwoo_booth.jpg": {
+      "title": "서비스 전의 HANWOO 부스",
+      "alt": "야외 테라스의 검은 HANWOO KOREAN BEEF 부스, 쌓아 둔 접시와 진열된 대분할육"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_01_embassy_hanwoo_booth.jpg": {
+      "title": "한우 부스, 싱가포르",
+      "alt": "해가 진 뒤 싱가포르의 HANWOO 부스에서 팀과 함께한 흰 셰프복 차림의 Ron Ko"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_02_embassy_hanwoo_booth_group.jpg": {
+      "title": "서비스를 마친 부스 팀",
+      "alt": "배너 앞에서 밤에 촬영한 싱가포르 한우 부스 팀"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_03_embassy_reception_stage.jpg": {
+      "title": "리셉션 무대 — 2026 개천절",
+      "alt": "싱가포르 한국대사관 리셉션장의 ‘National Foundation Day 2026’ 무대 배너"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_04_bidfood_showroom_demo.jpg": {
+      "title": "비드푸드 쇼룸 — 시연 테이블",
+      "alt": "대분할육과 제품 샘플이 놓인 비드푸드 싱가포르 쇼룸의 시연 테이블"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_05_bidfood_team_board.jpg": {
+      "title": "비드푸드 조직도 — 스펙 퀴진, 그로서리, 구매",
+      "alt": "비드푸드 싱가포르 사무실 벽의 조직도, 스펙 퀴진·그로서리·구매 팀이 적혀 있다"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_06_distributor_product_shelf.jpg": {
+      "title": "유통사 매대 — 훈연 이베리코와 오리",
+      "alt": "싱가포르 유통사 매장의 냉장 진열대, 훈연 이베리코와 훈연 오리 제품"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_03_butchery_show.jpg": {
+      "title": "무대 위에서 한우 대분할육 해체",
+      "alt": "검은 셰프복과 장갑을 갖춘 Ron Ko가 세미나에서 한우 대분할육 해체를 시연하는 중"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_01_speaking_demo.jpg": {
+      "title": "셰프와 바이어를 위한 대분할 시연",
+      "alt": "홍콩 한우 세미나에서 장갑 낀 손으로 대분할 부위를 설명하는 Ron Ko"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_02_chef_portrait.jpg": {
+      "title": "세션 전",
+      "alt": "홍콩 세미나 전, 주방에서 셰프복과 앞치마를 한 Ron Ko의 인물 사진"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_04_waving_with_chef.jpg": {
+      "title": "시연 후 호스트 셰프와",
+      "alt": "홍콩 시연을 마치고 객석을 향해 손을 흔드는 Ron Ko와 호스트 셰프"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_05_group_with_team.jpg": {
+      "title": "행사 팀과 함께",
+      "alt": "홍콩 한우 세미나 후 주최 측과 셰프들 사이에 선 Ron Ko"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_06_plating.jpg": {
+      "title": "한우 플레이팅",
+      "alt": "홍콩 세미나 중 서비스용으로 완성된 한우 한 접시"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_06_kitchen_line_film.jpg": {
+      "title": "JIN-JEE의 화덕 라인",
+      "alt": "보스턴 JIN-JEE의 주방 라인과 화덕, 필름 촬영"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_05_kitchen_team_film.jpg": {
+      "title": "주방 팀",
+      "alt": "패스 앞에 선 JIN-JEE 주방 팀, 필름 촬영"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_07_store_interior_film.jpg": {
+      "title": "서비스 전의 홀",
+      "alt": "보스턴 한식 바비큐 식당의 텅 빈 홀, 필름 촬영"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_01_jinjie_sign_selfie.jpg": {
+      "title": "JIN-JEE",
+      "alt": "보스턴 JIN-JEE 간판 앞의 Ron Ko"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_02_jinjie_group_dinner.jpg": {
+      "title": "팀과의 저녁",
+      "alt": "보스턴에서 서비스 후 식당 팀과 함께한 저녁"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_04_grill_table.jpg": {
+      "title": "서비스 준비를 마친 그릴 상",
+      "alt": "보스턴 식당에서 서비스 준비를 마친 테이블 그릴과 반찬"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_08_airplane_window.jpg": {
+      "title": "보스턴에서 서울로",
+      "alt": "보스턴에서 귀국하는 비행기 창밖 풍경"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_02_night_skyline.jpg": {
+      "title": "호텔 창으로 본 맨해튼",
+      "alt": "호텔 창문으로 본 밤의 맨해튼 스카이라인"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_01_broadway_marquee.jpg": {
+      "title": "밤의 브로드웨이",
+      "alt": "밤의 브로드웨이에 불이 켜진 앨라딘 간판"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_03_empire_state_street.jpg": {
+      "title": "해질녘 엠파이어 스테이트",
+      "alt": "해질녘 엠파이어 스테이트 빌딩을 향한 거리 풍경"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_04_film_port_authority.jpg": {
+      "title": "필름에 담은 포트 오소리티",
+      "alt": "거리에서 바라본 포트 오소리티, 필름 촬영"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_06_knife_shop.jpg": {
+      "title": "칼 가게, 나고야",
+      "alt": "가족 여행 중 들른 나고야의 한 칼 가게 안"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_02_matsusaka_beef_panel.jpg": {
+      "title": "마쓰사카 소, 품종의 역사",
+      "alt": "마쓰사카 소의 역사를 소개하는 전시 패널"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_03_tajima_cattle_history.jpg": {
+      "title": "다지마 소의 계보",
+      "alt": "다지마 소의 혈통 계보를 보여주는 전시"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_01_unagi_rice_box.jpg": {
+      "title": "히쓰마부시",
+      "alt": "나고야에서 먹은 장어 덮밥, 히쓰마부시"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_04_family_travel.jpg": {
+      "title": "길 위에서",
+      "alt": "일본에서 도시 사이를 이동하는 가족"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_05_cafe_drinks.jpg": {
+      "title": "카페에서",
+      "alt": "여행 중 카페 테이블 위의 음료들"
+    },
+    "images/archive/2025/2025-01-11_japan_family/japan_07_night_street.jpg": {
+      "title": "밤거리, 나고야",
+      "alt": "가족과 함께한 밤의 나고야 거리"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_01_venue_screen.jpg": {
+      "title": "세미나 행사장, 프놈펜",
+      "alt": "프놈펜 세미나 행사장의 대형 스크린"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_02_hotel_lounge.jpg": {
+      "title": "호텔 라운지",
+      "alt": "프놈펜 호텔의 라운지 바"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_03_the_atom.jpg": {
+      "title": "THE ATOM 쇼룸",
+      "alt": "프놈펜 THE ATOM 쇼룸 입구"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_04_phnom_penh_towers.jpg": {
+      "title": "거리에서 본 프놈펜",
+      "alt": "프놈펜에서 공사 중인 아파트 고층 빌딩들"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_05_booyoung_town.jpg": {
+      "title": "부영타운",
+      "alt": "프놈펜의 부영타운 표지판"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_06_street.jpg": {
+      "title": "거리, 프놈펜",
+      "alt": "프놈펜의 평범한 거리 풍경"
+    },
+    "images/archive/2025/2025-04-20_thailand/th_01_hotel_garden.jpg": {
+      "title": "호텔 정원, 방콕",
+      "alt": "2025년 출장 중 방문한 방콕의 호텔 정원"
+    },
+    "images/archive/2025/2025-10-02_laos/la_01_hanwoo_seminar.jpg": {
+      "title": "부위를 들고 한 한우 세미나",
+      "alt": "라오스 세미나에서 마이크를 잡고 한우 대분할육을 보여주는 Ron Ko"
+    },
+    "images/archive/2024/2024-07-27_rnd_expo/rnd_01_expo_tasting_booth.jpg": {
+      "title": "시식·상담 부스",
+      "alt": "식품 박람회의 제품 시식·상담 부스, 카운터 뒤에 선 팀"
+    },
+    "images/archive/2026/2026-09_butchery/butchery_01_cutting.jpg": {
+      "title": "한우 대분할육 해체",
+      "alt": "도마 위 정형된 한우 대분할육에 칼을 넣는 손"
+    },
+    "images/archive/2026/2026-09_butchery/butchery_02_cutting2.jpg": {
+      "title": "칼을 쥔 손",
+      "alt": "한우 대분할육 위 칼질의 클로즈업"
+    },
+    "images/archive/2026/2026-06-26_workbench/butchery_03_knife_rack.jpg": {
+      "title": "하루를 마친 칼꽂이",
+      "alt": "하루 일과를 마친 정육 공간의 칼꽂이"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_01_portrait.jpg": {
+      "title": "헬멧 쓰고, 출발",
+      "alt": "라이딩 전 헬멧을 쓴 사이클 인물 사진"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_02_pristine.jpg": {
+      "title": "PRISTINE",
+      "alt": "2018년 라이딩 중 들른 PRISTINE 지점"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_03_group.jpg": {
+      "title": "라이딩 후 휴식",
+      "alt": "2018년 사이클 라이딩 후 쉬고 있는 일행"
+    },
+    "images/archive/2014/2014-05-18_misiryeong/hobby_cycling_05_misiryeong.jpg": {
+      "title": "미시령 고개",
+      "alt": "2014년 미시령 정상에서"
+    },
+    "images/archive/2026/2026-07-30_golf/hobby_golf_01_course.jpg": {
+      "title": "아침 라운드",
+      "alt": "아침 햇살이 비치는 골프 코스"
+    },
+    "images/archive/2026/2026-09-03_golf/hobby_golf_02_selfie.jpg": {
+      "title": "티잉 그라운드에서",
+      "alt": "골프장에서 찍은 셀프 사진"
+    },
+    "images/archive/2026/2026-09-03_golf/hobby_golf_03_group.jpg": {
+      "title": "포볼",
+      "alt": "코스에서 찍은 네 명의 단체 사진"
+    },
+    "images/archive/2026/2026_film/hobby_film_01_camera_selfie.jpg": {
+      "title": "낡은 필름 카메라",
+      "alt": "필름 카메라를 든 셀프 사진"
+    },
+    "images/archive/2026/2026_film/hobby_film_02_insadong_people.jpg": {
+      "title": "필름에 담은 인사동",
+      "alt": "인사동 거리의 사람들, 필름 촬영"
+    }
+  }
+}

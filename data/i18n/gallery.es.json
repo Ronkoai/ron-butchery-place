@@ -1,0 +1,237 @@
+{
+  "places": {
+    "Singapore": "Singapur",
+    "Hong Kong": "Hong Kong",
+    "Boston, USA": "Boston, EE. UU.",
+    "New York, USA": "Nueva York, EE. UU.",
+    "Nagoya, Japan": "Nagoya, Japón",
+    "Japan": "Japón",
+    "Phnom Penh, Cambodia": "Phnom Penh, Camboya",
+    "Bangkok, Thailand": "Bangkok, Tailandia",
+    "Laos": "Laos",
+    "Korea": "Corea",
+    "Seoul, Korea": "Seúl, Corea"
+  },
+  "items": {
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_07_outdoor_cutting_portrait.jpg": {
+      "title": "Cortando un solomillo entero en la clase magistral al aire libre",
+      "alt": "Ron Ko, con filipina blanca, cortando un solomillo de Hanwoo entero sobre una tabla roja en una terraza de azotea en Singapur, con el skyline detrás"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_08_outdoor_cutting_demo.jpg": {
+      "title": "Demostración de carnicería, con el skyline de Singapur detrás",
+      "alt": "Ron Ko limpiando un solomillo de Hanwoo al aire libre junto a una bandeja de piezas grandes, con las torres de la ciudad al fondo"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_09_outdoor_grill_evening.jpg": {
+      "title": "Cata nocturna de Hanwoo a la parrilla",
+      "alt": "Cocineros asando Hanwoo en una cata de estilo mercado nocturno bajo la pancarta verde HANWOO KOREAN BEEF, con invitados sosteniendo platos y vino"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_10_outdoor_hanwoo_booth.jpg": {
+      "title": "El stand HANWOO antes del servicio",
+      "alt": "Stand negro HANWOO KOREAN BEEF en una terraza al aire libre, con platos apilados y piezas grandes a la vista"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_01_embassy_hanwoo_booth.jpg": {
+      "title": "Stand de Hanwoo, Singapur",
+      "alt": "Ron Ko, con filipina blanca, junto al equipo en el stand HANWOO de Singapur ya de noche"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_02_embassy_hanwoo_booth_group.jpg": {
+      "title": "El equipo del stand, tras el servicio",
+      "alt": "El equipo del stand de Hanwoo en Singapur, fotografiado de noche frente a la pancarta"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_03_embassy_reception_stage.jpg": {
+      "title": "Escenario de la recepción — Día de la Fundación Nacional 2026",
+      "alt": "Pancarta del escenario con la inscripción National Foundation Day 2026 en la recepción de la Embajada de Corea en Singapur"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_04_bidfood_showroom_demo.jpg": {
+      "title": "Showroom de Bidfood — mesa de demostración",
+      "alt": "Mesa de demostración en el showroom de Bidfood Singapur con piezas grandes y muestras de producto"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_05_bidfood_team_board.jpg": {
+      "title": "Organigrama de Bidfood — cocina técnica, alimentación, compras",
+      "alt": "Organigrama en la pared de la oficina de Bidfood Singapur con los equipos de cocina técnica, alimentación y compras"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_06_distributor_product_shelf.jpg": {
+      "title": "Anaquel del distribuidor — ibérico y pato ahumados",
+      "alt": "Anaquel refrigerado en una tienda de distribuidor en Singapur con productos de ibérico ahumado y pato ahumado"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_03_butchery_show.jpg": {
+      "title": "Despiece de un bloque de Hanwoo en el escenario",
+      "alt": "Ron Ko, con filipina negra y guantes, demostrando el despiece de un bloque de Hanwoo en el seminario"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_01_speaking_demo.jpg": {
+      "title": "Demostración de bloque entero para cocineros y compradores",
+      "alt": "Ron Ko en el escenario explicando los cortes con las manos enguantadas durante el seminario de Hanwoo en Hong Kong"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_02_chef_portrait.jpg": {
+      "title": "Antes de la sesión",
+      "alt": "Retrato de Ron Ko con filipina y delantal en la cocina, antes del seminario de Hong Kong"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_04_waving_with_chef.jpg": {
+      "title": "Con el chef anfitrión tras la demostración",
+      "alt": "Ron Ko y el chef anfitrión saludando a la sala después de la demostración en Hong Kong"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_05_group_with_team.jpg": {
+      "title": "Con el equipo del evento",
+      "alt": "Ron Ko con los organizadores y los cocineros tras el seminario de Hanwoo en Hong Kong"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_06_plating.jpg": {
+      "title": "Emplatado de Hanwoo",
+      "alt": "Un plato de Hanwoo terminado para el servicio durante el seminario de Hong Kong"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_06_kitchen_line_film.jpg": {
+      "title": "La línea de hornos de JIN-JEE",
+      "alt": "Línea de cocina y horno de leña en JIN-JEE, Boston, en carrete"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_05_kitchen_team_film.jpg": {
+      "title": "Equipo de cocina",
+      "alt": "El equipo de cocina de JIN-JEE en el pase, en carrete"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_07_store_interior_film.jpg": {
+      "title": "Comedor antes del servicio",
+      "alt": "Comedor vacío del restaurante de barbacoa coreana en Boston, en carrete"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_01_jinjie_sign_selfie.jpg": {
+      "title": "JIN-JEE",
+      "alt": "Ron Ko frente al rótulo de JIN-JEE en Boston"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_02_jinjie_group_dinner.jpg": {
+      "title": "Cena con el equipo",
+      "alt": "Cena con el equipo del restaurante en Boston después del servicio"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_04_grill_table.jpg": {
+      "title": "Mesa de parrilla lista para el servicio",
+      "alt": "Parrilla de mesa y guarniciones preparadas para el servicio en el restaurante de Boston"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_08_airplane_window.jpg": {
+      "title": "De Boston a Seúl",
+      "alt": "Vista desde la ventanilla del avión en el vuelo de regreso desde Boston"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_02_night_skyline.jpg": {
+      "title": "Manhattan desde la ventana del hotel",
+      "alt": "Skyline de Manhattan de noche visto desde la ventana de un hotel"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_01_broadway_marquee.jpg": {
+      "title": "Broadway de noche",
+      "alt": "El cartel de Aladdin en Broadway, iluminado de noche"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_03_empire_state_street.jpg": {
+      "title": "Empire State al anochecer",
+      "alt": "Vista de la calle hacia el Empire State Building al anochecer"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_04_film_port_authority.jpg": {
+      "title": "Port Authority, en carrete",
+      "alt": "Port Authority visto desde la calle, en carrete"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_06_knife_shop.jpg": {
+      "title": "Tienda de cuchillos, Nagoya",
+      "alt": "Interior de una tienda de cuchillos en Nagoya durante el viaje familiar"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_02_matsusaka_beef_panel.jpg": {
+      "title": "Matsusaka, la historia de la raza",
+      "alt": "Panel expositivo sobre la historia de la carne de Matsusaka"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_03_tajima_cattle_history.jpg": {
+      "title": "Linaje del ganado Tajima",
+      "alt": "Exposición sobre el linaje del ganado Tajima"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_01_unagi_rice_box.jpg": {
+      "title": "Hitsumabushi",
+      "alt": "Caja de arroz con anguila a la parrilla, hitsumabushi, en Nagoya"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_04_family_travel.jpg": {
+      "title": "De camino",
+      "alt": "La familia viajando entre ciudades en Japón"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_05_cafe_drinks.jpg": {
+      "title": "Parada en el café",
+      "alt": "Bebidas en la mesa de un café durante el viaje"
+    },
+    "images/archive/2025/2025-01-11_japan_family/japan_07_night_street.jpg": {
+      "title": "Calle nocturna, Nagoya",
+      "alt": "Una calle de Nagoya de noche, con la familia"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_01_venue_screen.jpg": {
+      "title": "Sede del seminario, Phnom Penh",
+      "alt": "Pantalla grande en la sala del seminario en Phnom Penh"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_02_hotel_lounge.jpg": {
+      "title": "Lounge del hotel",
+      "alt": "Bar del lounge del hotel en Phnom Penh"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_03_the_atom.jpg": {
+      "title": "Showroom de THE ATOM",
+      "alt": "Entrada del showroom de THE ATOM en Phnom Penh"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_04_phnom_penh_towers.jpg": {
+      "title": "Phnom Penh desde la calle",
+      "alt": "Torres de apartamentos en construcción en Phnom Penh"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_05_booyoung_town.jpg": {
+      "title": "Booyoung Town",
+      "alt": "Letrero de Booyoung Town en Phnom Penh"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_06_street.jpg": {
+      "title": "Calle, Phnom Penh",
+      "alt": "Una calle corriente de Phnom Penh"
+    },
+    "images/archive/2025/2025-04-20_thailand/th_01_hotel_garden.jpg": {
+      "title": "Jardín del hotel, Bangkok",
+      "alt": "Jardín del hotel en Bangkok durante el viaje de 2025"
+    },
+    "images/archive/2025/2025-10-02_laos/la_01_hanwoo_seminar.jpg": {
+      "title": "Seminario de Hanwoo con el corte en la mano",
+      "alt": "Ron Ko presentando un bloque de Hanwoo en el seminario de Laos, hablando por micrófono"
+    },
+    "images/archive/2024/2024-07-27_rnd_expo/rnd_01_expo_tasting_booth.jpg": {
+      "title": "Stand de cata y consulta",
+      "alt": "Stand de cata y consulta de producto en una feria alimentaria, con el equipo tras el mostrador"
+    },
+    "images/archive/2026/2026-09_butchery/butchery_01_cutting.jpg": {
+      "title": "Despiece de un bloque de Hanwoo",
+      "alt": "Manos pasando el cuchillo por un bloque de Hanwoo limpio sobre una tabla"
+    },
+    "images/archive/2026/2026-09_butchery/butchery_02_cutting2.jpg": {
+      "title": "Manos en el cuchillo",
+      "alt": "Detalle cercano del trabajo del cuchillo sobre un bloque de Hanwoo"
+    },
+    "images/archive/2026/2026-06-26_workbench/butchery_03_knife_rack.jpg": {
+      "title": "Cuchillos al final del día",
+      "alt": "Un soporte de cuchillos en la carnicería al final de la jornada"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_01_portrait.jpg": {
+      "title": "Casco puesto, listo para salir",
+      "alt": "Retrato en bicicleta con casco antes de una salida"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_02_pristine.jpg": {
+      "title": "PRISTINE",
+      "alt": "En la parada de PRISTINE durante una salida de 2018"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_03_group.jpg": {
+      "title": "Descanso tras la salida",
+      "alt": "Un grupo descansando tras una salida en bicicleta de 2018"
+    },
+    "images/archive/2014/2014-05-18_misiryeong/hobby_cycling_05_misiryeong.jpg": {
+      "title": "Puerto de Misiryeong",
+      "alt": "En la cima del puerto de Misiryeong en 2014"
+    },
+    "images/archive/2026/2026-07-30_golf/hobby_golf_01_course.jpg": {
+      "title": "Vuelta de mañana",
+      "alt": "Un campo de golf con la luz de la mañana"
+    },
+    "images/archive/2026/2026-09-03_golf/hobby_golf_02_selfie.jpg": {
+      "title": "En el tee",
+      "alt": "Autorretrato en un campo de golf"
+    },
+    "images/archive/2026/2026-09-03_golf/hobby_golf_03_group.jpg": {
+      "title": "Cuatro jugadores",
+      "alt": "Fotografía de grupo de un fourball en el campo"
+    },
+    "images/archive/2026/2026_film/hobby_film_01_camera_selfie.jpg": {
+      "title": "La vieja cámara analógica",
+      "alt": "Autorretrato con una cámara analógica"
+    },
+    "images/archive/2026/2026_film/hobby_film_02_insadong_people.jpg": {
+      "title": "Insadong, en carrete",
+      "alt": "Gente en la calle en Insadong, en carrete"
+    }
+  }
+}

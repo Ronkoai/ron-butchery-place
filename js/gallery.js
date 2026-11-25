@@ -2,21 +2,45 @@
    Add a photo = drop the file in images/archive/... , run scripts/make_thumbs.py,
    and add one object to the JSON.
 
+   Translations live in data/i18n/gallery.<lang>.json (title, alt and place per
+   photograph, plus a place-label map). English is the fallback everywhere.
+
    Containers
      [data-gallery="recent"]   cards for the home page  (tag: recent)
      [data-gallery="archive"]  full masonry grid        (filtered by [data-filters])
    Filters
      [data-filters] > button.chip[data-filter="all|trips|craft|travel"]
      [data-filter-count]       shows how many photographs the filter holds
-*/
-(function () {
+*/(function () {
   'use strict';
 
   var DATA_URL = 'data/gallery.json';
+  var LOCALE_URL = 'data/i18n/gallery.';
   var items = [];
   var activeFilter = 'all';
   var archiveItems = [];
   var archiveIndex = 0;
+  var locale = null;
+
+  /* ---------- language ---------- */
+
+  function lang() {
+    return window.RonI18n ? window.RonI18n.lang() : 'en';
+  }
+
+  function T(key, fallback) {
+    if (window.RonI18n) {
+      var value = window.RonI18n.t(key, fallback);
+      if (value) return value;
+    }
+    return fallback;
+  }
+
+  function fill(template, data) {
+    return String(template).replace(/\{(\w+)\}/g, function (match, name) {
+      return data[name] == null ? match : data[name];
+    });
+  }
 
   /* ---------- data ---------- */
 
@@ -43,6 +67,42 @@
       width: raw.width ? String(raw.width) : '',
       height: raw.height ? String(raw.height) : ''
     };
+  }
+
+  /* English caption overlaid with the current language where a translation exists. */
+  function view(item) {
+    var entry = locale && locale.items ? locale.items[item.src] : null;
+    var places = locale && locale.places ? locale.places : null;
+    return {
+      src: item.src,
+      thumb: item.thumb,
+      full: item.full,
+      date: item.date,
+      tags: item.tags,
+      width: item.width,
+      height: item.height,
+      title: (entry && entry.title) || item.title,
+      alt: (entry && entry.alt) || item.alt,
+      place: (places && places[item.place]) || item.place
+    };
+  }
+
+  function loadLocale(code) {
+    if (code === 'en') {
+      locale = null;
+      return Promise.resolve();
+    }
+    return fetch(LOCALE_URL + code + '.json', { cache: 'no-cache' })
+      .then(function (response) {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.json();
+      })
+      .then(function (data) {
+        locale = data && typeof data === 'object' ? data : null;
+      })
+      .catch(function () {
+        locale = null;
+      });
   }
 
   function dateLabel(value) {
@@ -90,7 +150,7 @@
     lb.hidden = true;
     lb.setAttribute('role', 'dialog');
     lb.setAttribute('aria-modal', 'true');
-    lb.setAttribute('aria-label', 'Photo viewer');
+    lb.setAttribute('aria-label', T('lightbox.viewer', 'Photo viewer'));
 
     lbImg = document.createElement('img');
     lbImg.className = 'lightbox-img';
@@ -99,10 +159,10 @@
     lbCaption = document.createElement('p');
     lbCaption.className = 'lightbox-caption';
 
-    lb.appendChild(makeButton('lightbox-close', 'Close photo viewer', '\u00d7', closeLightbox));
-    lb.appendChild(makeButton('lightbox-prev', 'Previous photo', '\u2039', function () { step(-1); }));
+    lb.appendChild(makeButton('lightbox-close', T('lightbox.close', 'Close photo viewer'), '\u00d7', closeLightbox));
+    lb.appendChild(makeButton('lightbox-prev', T('lightbox.prev', 'Previous photo'), '\u2039', function () { step(-1); }));
     lb.appendChild(lbImg);
-    lb.appendChild(makeButton('lightbox-next', 'Next photo', '\u203a', function () { step(1); }));
+    lb.appendChild(makeButton('lightbox-next', T('lightbox.next', 'Next photo'), '\u203a', function () { step(1); }));
     lb.appendChild(lbCaption);
 
     lb.addEventListener('click', function (event) {
@@ -150,7 +210,9 @@
     var many = lbSet.length > 1;
     lb.querySelector('.lightbox-prev').hidden = !many;
     lb.querySelector('.lightbox-next').hidden = !many;
-    lb.setAttribute('aria-label', item.title ? 'Photo viewer: ' + item.title : 'Photo viewer');
+    lb.setAttribute('aria-label', item.title
+      ? fill(T('lightbox.viewerTitled', 'Photo viewer: {title}'), { title: item.title })
+      : T('lightbox.viewer', 'Photo viewer'));
   }
 
   function step(delta) {
@@ -189,7 +251,9 @@
     var button = document.createElement('button');
     button.type = 'button';
     button.className = 'photo-open';
-    button.setAttribute('aria-label', item.title ? 'Open photo: ' + item.title : 'Open photo');
+    button.setAttribute('aria-label', item.title
+      ? fill(T('lightbox.openTitled', 'Open photo: {title}'), { title: item.title })
+      : T('lightbox.open', 'Open photo'));
 
     var img = document.createElement('img');
     img.src = item.thumb || item.src;
@@ -271,8 +335,9 @@
   }
 
   function fillContainer(container, selected, isRecent) {
+    container.innerHTML = '';
+
     if (!selected.length) {
-      if (container.hasAttribute('data-fallback') || container.querySelector('.gallery-empty')) return;
       var message = container.getAttribute('data-empty');
       if (!message) return;
       var note = document.createElement('p');
@@ -282,7 +347,6 @@
       return;
     }
 
-    container.innerHTML = '';
     selected.forEach(function (item, index) {
       container.appendChild(isRecent ? recentCard(item) : photoFigure(item, selected, index));
     });
@@ -293,12 +357,16 @@
     if (!container) return;
     archiveItems = items.filter(function (item) {
       return matches(item, activeFilter);
-    }).sort(byDateDesc);
+    }).sort(byDateDesc).map(view);
     fillContainer(container, archiveItems, false);
 
     var count = document.querySelector('[data-filter-count]');
     if (count) {
-      count.textContent = archiveItems.length + (archiveItems.length === 1 ? ' photograph' : ' photographs');
+      var english = archiveItems.length + (archiveItems.length === 1 ? ' photograph' : ' photographs');
+      var template = T('gallery.count', '');
+      count.textContent = template && lang() !== 'en'
+        ? fill(template, { n: archiveItems.length })
+        : english;
     }
   }
 
@@ -327,7 +395,7 @@
       }
       var selected = key ? items.filter(function (item) {
         return matches(item, key);
-      }).sort(byDateDesc) : [];
+      }).sort(byDateDesc).map(view) : [];
       fillContainer(container, selected, key === 'recent');
     });
   }
@@ -338,21 +406,46 @@
     if (!document.querySelector('[data-gallery]')) return;
     wireFilters();
 
-    fetch(DATA_URL, { cache: 'no-cache' })
-      .then(function (response) {
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        return response.json();
-      })
-      .then(function (data) {
+    var wanted = lang();
+    if (wanted !== 'en') {
+      Promise.all([
+        loadLocale(wanted),
+        fetch(DATA_URL, { cache: 'no-cache' }).then(function (response) {
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          return response.json();
+        })
+      ]).then(function (results) {
+        var data = results[1];
         var raw = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : []);
         items = raw.map(normalize).filter(Boolean);
         renderAll();
-      })
-      .catch(function () {
-        /* Missing or unreadable data file: keep the fallbacks and empty states. */
+      }).catch(function () {
         items = [];
         renderAll();
       });
+    } else {
+      fetch(DATA_URL, { cache: 'no-cache' })
+        .then(function (response) {
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          return response.json();
+        })
+        .then(function (data) {
+          var raw = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : []);
+          items = raw.map(normalize).filter(Boolean);
+          renderAll();
+        })
+        .catch(function () {
+          /* Missing or unreadable data file: keep the fallbacks and empty states. */
+          items = [];
+          renderAll();
+        });
+    }
+
+    if (window.RonI18n && typeof window.RonI18n.onChange === 'function') {
+      window.RonI18n.onChange(function (code) {
+        loadLocale(code).then(renderAll);
+      });
+    }
   }
 
   if (document.readyState === 'loading') {

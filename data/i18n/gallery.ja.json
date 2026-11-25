@@ -1,0 +1,237 @@
+{
+  "places": {
+    "Singapore": "シンガポール",
+    "Hong Kong": "香港",
+    "Boston, USA": "アメリカ・ボストン",
+    "New York, USA": "アメリカ・ニューヨーク",
+    "Nagoya, Japan": "日本・名古屋",
+    "Japan": "日本",
+    "Phnom Penh, Cambodia": "カンボジア・プノンペン",
+    "Bangkok, Thailand": "タイ・バンコク",
+    "Laos": "ラオス",
+    "Korea": "韓国",
+    "Seoul, Korea": "韓国・ソウル"
+  },
+  "items": {
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_07_outdoor_cutting_portrait.jpg": {
+      "title": "屋外マスタークラスでサーロインを一塊切る",
+      "alt": "白いシェフジャケットのRon Koが、シンガポールの屋上テラスで赤いまな板の上の韓牛サーロインを切っている。背後に街のスカイライン"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_08_outdoor_cutting_demo.jpg": {
+      "title": "精肉デモンストレーション、背後にシンガポールの街並み",
+      "alt": "屋外でブロック肉のトレーのそば、韓牛サーロインを整えるRon Ko。背景に高層ビル"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_09_outdoor_grill_evening.jpg": {
+      "title": "夜の韓牛グリル・テイスティング",
+      "alt": "緑のHANWOO KOREAN BEEFバナーの下、夜市のようなテイスティングで韓牛を焼くシェフたち。皿とワインを手にしたゲスト"
+    },
+    "images/archive/2026/2026-10-17_singapore_outdoor/sg_10_outdoor_hanwoo_booth.jpg": {
+      "title": "サービス前のHANWOOブース",
+      "alt": "屋外テラスの黒いHANWOO KOREAN BEEFブース。積まれた皿と並ぶブロック肉"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_01_embassy_hanwoo_booth.jpg": {
+      "title": "韓牛ブース、シンガポール",
+      "alt": "日が落きたシンガポールのHANWOOブースで、チームと並ぶ白いシェフジャケットのRon Ko"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_02_embassy_hanwoo_booth_group.jpg": {
+      "title": "サービスを終えたブースのチーム",
+      "alt": "バナーの前、夜に撮影したシンガポール韓牛ブースのチーム"
+    },
+    "images/archive/2026/2026-10-16_singapore_embassy/sg_03_embassy_reception_stage.jpg": {
+      "title": "レセプションのステージ — 2026年開天節",
+      "alt": "シンガポール韓国大使館レセプションの「National Foundation Day 2026」ステージバナー"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_04_bidfood_showroom_demo.jpg": {
+      "title": "Bidfoodショールーム — デモンストレーション・テーブル",
+      "alt": "ブロック肉と製品サンプルが並ぶBidfoodシンガポール・ショールームのデモテーブル"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_05_bidfood_team_board.jpg": {
+      "title": "Bidfoodの組織図 — スペックキュイジーヌ、グロサリー、購買",
+      "alt": "Bidfoodシンガポール事務所の壁の組織図。スペックキュイジーヌ、グロサリー、購買チームが記されている"
+    },
+    "images/archive/2026/2026-10-15_singapore_bidfood/sg_06_distributor_product_shelf.jpg": {
+      "title": "ディストリビューターの棚 — スモークイベリコと鴨",
+      "alt": "シンガポールのディストリビューター店舗の冷蔵棚に並ぶスモークイベリコとスモークダック"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_03_butchery_show.jpg": {
+      "title": "ステージで韓牛ブロックを解体",
+      "alt": "黒いシェフジャケットと手袋のRon Koが、セミナーで韓牛ブロックの解体を実演している"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_01_speaking_demo.jpg": {
+      "title": "シェフとバイヤーのためのブロック解体デモ",
+      "alt": "香港の韓牛セミナーで、手袋の手で部位を説明するRon Ko"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_02_chef_portrait.jpg": {
+      "title": "セッションの前に",
+      "alt": "香港セミナー前、厨房でシェフジャケットとエプロン姿のRon Koのポートレート"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_04_waving_with_chef.jpg": {
+      "title": "実演のあと、ホストシェフと",
+      "alt": "香港での実演を終え、会場に向かって手を振るRon Koとホストシェフ"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_05_group_with_team.jpg": {
+      "title": "イベントチームと",
+      "alt": "香港の韓牛セミナー後、主催者とシェフたちと並ぶRon Ko"
+    },
+    "images/archive/2026/2026-06-16_hongkong/hk_06_plating.jpg": {
+      "title": "韓牛の盛り付け",
+      "alt": "香港セミナー中にサービス用に仕上げられた韓牛の一皿"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_06_kitchen_line_film.jpg": {
+      "title": "JIN-JEEの窯のライン",
+      "alt": "ボストンJIN-JEEの厨房ラインと薪窯、フィルム撮影"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_05_kitchen_team_film.jpg": {
+      "title": "厨房チーム",
+      "alt": "パスの前に立つJIN-JEEの厨房チーム、フィルム撮影"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_07_store_interior_film.jpg": {
+      "title": "サービス前のダイニング",
+      "alt": "ボストンの韓国焼肉店の、まだ客のいないダイニング。フィルム撮影"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_01_jinjie_sign_selfie.jpg": {
+      "title": "JIN-JEE",
+      "alt": "ボストンのJIN-JEEの看板の前のRon Ko"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_02_jinjie_group_dinner.jpg": {
+      "title": "チームとの夕食",
+      "alt": "ボストンでサービス後にレストランのチームと囲んだ夕食"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_04_grill_table.jpg": {
+      "title": "サービスの支度が整ったグリルテーブル",
+      "alt": "ボストンの店でサービス準備が整ったテーブルグリルと副菜"
+    },
+    "images/archive/2026/2026-05-06_boston/boston_08_airplane_window.jpg": {
+      "title": "ボストンからソウルへ",
+      "alt": "ボストンからの帰国便、飛行機の窓からの眺め"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_02_night_skyline.jpg": {
+      "title": "ホテルの窓から見たマンハッタン",
+      "alt": "ホテルの窓から見た夜のマンハッタンのスカイライン"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_01_broadway_marquee.jpg": {
+      "title": "夜のブロードウェイ",
+      "alt": "夜のブロードウェイ、明かりの灯るアラジンの看板"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_03_empire_state_street.jpg": {
+      "title": "夕暮れのエンパイア・ステート",
+      "alt": "夕暮れにエンパイア・ステート・ビルを望む通り"
+    },
+    "images/archive/2026/2026-03-08_newyork/ny_04_film_port_authority.jpg": {
+      "title": "フィルムのポート・オーソリティ",
+      "alt": "通りから見たポート・オーソリティ、フィルム撮影"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_06_knife_shop.jpg": {
+      "title": "包丁店、名古屋",
+      "alt": "家族旅行で訪れた名古屋の包丁店の店内"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_02_matsusaka_beef_panel.jpg": {
+      "title": "松阪牛、その品種の歴史",
+      "alt": "松阪牛の歴史を紹介する展示パネル"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_03_tajima_cattle_history.jpg": {
+      "title": "但馬牛の血統",
+      "alt": "但馬牛の血統を示す展示"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_01_unagi_rice_box.jpg": {
+      "title": "ひつまぶし",
+      "alt": "名古屋で食べたうなぎの櫃まぶし"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_04_family_travel.jpg": {
+      "title": "道の上で",
+      "alt": "日本で街から街へ移動する家族"
+    },
+    "images/archive/2025/2025-01-12_japan_family/japan_05_cafe_drinks.jpg": {
+      "title": "カフェにて",
+      "alt": "旅の途中、カフェのテーブルに並ぶ飲み物"
+    },
+    "images/archive/2025/2025-01-11_japan_family/japan_07_night_street.jpg": {
+      "title": "夜の街、名古屋",
+      "alt": "家族と歩いた夜の名古屋の通り"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_01_venue_screen.jpg": {
+      "title": "セミナー会場、プノンペン",
+      "alt": "プノンペンのセミナー会場の大きなスクリーン"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_02_hotel_lounge.jpg": {
+      "title": "ホテルラウンジ",
+      "alt": "プノンペンのホテルのラウンジバー"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_03_the_atom.jpg": {
+      "title": "THE ATOMショールーム",
+      "alt": "プノンペンのTHE ATOMショールームの入口"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_04_phnom_penh_towers.jpg": {
+      "title": "通りから見たプノンペン",
+      "alt": "プノンペンで建設中のマンション高層棟"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_05_booyoung_town.jpg": {
+      "title": "プヨンタウン",
+      "alt": "プノンペンのプヨンタウンの看板"
+    },
+    "images/archive/2025/2025-04-19_cambodia/kh_06_street.jpg": {
+      "title": "通り、プノンペン",
+      "alt": "プノンペンの何でもない通りの風景"
+    },
+    "images/archive/2025/2025-04-20_thailand/th_01_hotel_garden.jpg": {
+      "title": "ホテルの庭、バンコク",
+      "alt": "2025年の出張中に訪れたバンコクのホテルの庭"
+    },
+    "images/archive/2025/2025-10-02_laos/la_01_hanwoo_seminar.jpg": {
+      "title": "部位を手にした韓牛セミナー",
+      "alt": "ラオスのセミナーでマイクを握り、韓牛のブロックを示すRon Ko"
+    },
+    "images/archive/2024/2024-07-27_rnd_expo/rnd_01_expo_tasting_booth.jpg": {
+      "title": "試食・相談ブース",
+      "alt": "食品見本市の試食・相談ブース。カウンターの後ろに立つチーム"
+    },
+    "images/archive/2026/2026-09_butchery/butchery_01_cutting.jpg": {
+      "title": "韓牛ブロックの解体",
+      "alt": "まな板の上の韓牛ブロックに包丁を入れる手"
+    },
+    "images/archive/2026/2026-09_butchery/butchery_02_cutting2.jpg": {
+      "title": "包丁を握る手",
+      "alt": "韓牛ブロックへの包丁仕事のクローズアップ"
+    },
+    "images/archive/2026/2026-06-26_workbench/butchery_03_knife_rack.jpg": {
+      "title": "一日の終わりの包丁立て",
+      "alt": "一日の仕事を終えた精肉場の包丁立て"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_01_portrait.jpg": {
+      "title": "ヘルメットをかぶって、出発",
+      "alt": "ライド前にヘルメットをかぶったサイクリングのポートレート"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_02_pristine.jpg": {
+      "title": "PRISTINE",
+      "alt": "2018年のライド中に立ち寄ったPRISTINE"
+    },
+    "images/archive/2018/2018-08-19_cycling/hobby_cycling_03_group.jpg": {
+      "title": "ライドのあとの休息",
+      "alt": "2018年のサイクリングのあと休む一行"
+    },
+    "images/archive/2014/2014-05-18_misiryeong/hobby_cycling_05_misiryeong.jpg": {
+      "title": "弥矢嶺（ミシリョン）峠",
+      "alt": "2014年、弥矢嶺峠の頂上にて"
+    },
+    "images/archive/2026/2026-07-30_golf/hobby_golf_01_course.jpg": {
+      "title": "朝のラウンド",
+      "alt": "朝の光の中のゴルフコース"
+    },
+    "images/archive/2026/2026-09-03_golf/hobby_golf_02_selfie.jpg": {
+      "title": "ティーグラウンドにて",
+      "alt": "ゴルフコースでの自撮り"
+    },
+    "images/archive/2026/2026-09-03_golf/hobby_golf_03_group.jpg": {
+      "title": "フォアボール",
+      "alt": "コースでの4人の記念写真"
+    },
+    "images/archive/2026/2026_film/hobby_film_01_camera_selfie.jpg": {
+      "title": "古いフィルムカメラ",
+      "alt": "フィルムカメラを手にした自撮り"
+    },
+    "images/archive/2026/2026_film/hobby_film_02_insadong_people.jpg": {
+      "title": "フィルムの仁寺洞",
+      "alt": "仁寺洞の通りを行く人々、フィルム撮影"
+    }
+  }
+}
