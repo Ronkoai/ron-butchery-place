@@ -76,6 +76,10 @@ images/archive/         아카이브 사진 (YYYY/YYYY-MM-DD_slug/파일명.jpg 
 
 작업 브랜치는 `feature/restructure` — 확인 후 `main`에 합치면 Pages에 반영됩니다.
 
+## 로컬에서 확인할 때
+
+`archive.html`의 갤러리·필터는 `data/gallery.json`을 fetch로 읽습니다. HTML 파일을 더블클릭해 열면(Chrome·Edge) fetch가 막혀 갤러리가 빈 상태로 보입니다. 폴더에서 `python3 -m http.server` 를 띄워 `http://localhost:8000/` 로 열거나, GitHub Pages 주소로 확인하세요.
+
 ## 색상 · 폰트 토큰
 
 `css/style.css` 상단 `:root`에 정리되어 있어요 (`--oxblood`, `--brass`, `--bone`, `--kraft`, `--gap`, `--radius` …). 색을 바꾸려면 변수 값만 고치면 사이트 전체에 반영됩니다. 디스플레이 서체는 Fraunces, 본문은 Pretendard.
