@@ -1056,7 +1056,7 @@ body.lightbox-open { overflow: hidden; }
 }
 
 /* ---------- AI builds ---------- */
-.builds-intro { align-items: start; }
+.builds-intro { align-items: center; grid-template-columns: 0.7fr 1.3fr; }
 .phone-portrait { max-width: 340px; }
 .phone-portrait img { border-radius: 16px; }
 .project-media.phone {
@@ -1077,7 +1077,11 @@ body.lightbox-open { overflow: hidden; }
 .reveal.in { opacity: 1; transform: none; }
 
 /* ---------- language-specific type ---------- */
-html[lang="ko"] { --font-display: 'Fraunces', Georgia, 'Nanum Myeongjo', 'Noto Serif KR', serif; }
+html[lang="ko"] {
+  --font-display: 'Fraunces', Georgia, 'Nanum Myeongjo', 'Noto Serif KR', serif;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
 html[lang="ja"] {
   --font-display: 'Fraunces', Georgia, 'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', serif;
   --font-body: 'Pretendard', 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif;
