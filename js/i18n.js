@@ -241,11 +241,9 @@
   function setLanguage(code, options) {
     var next = normalize(code) || DEFAULT_LANG;
     current = next;
+    persist(next);
     var lang = byCode(current) || LANGS[0];
     document.documentElement.lang = lang.htmlLang;
-
-    var label = document.querySelector('[data-lang-label]');
-    if (label) label.textContent = next === DEFAULT_LANG ? lang.short : lang.short + ' · ' + lang.label;
 
     applyTranslations();
     localizeLinks();
