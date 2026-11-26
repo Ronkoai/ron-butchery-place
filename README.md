@@ -10,6 +10,7 @@
 index.html              Home — 히어로(지표 4개) → Global projects 2025–2026(4개 지역) → Signature career chapters → What I do → 육류 인문학 → 문의
 about.html              About — 소개, 연대기(실제 입·퇴사 월), Interests & travel
 archive.html            Archive — 필터 갤러리(전체/출장·세미나/정육·다이닝·R&D/여행·취미) + 집필 섹션
+builds.html             AI Builds — AI로 만든 앱·시스템(시작→이거하자→현업 시스템→2026 배움→만기곰·그릴 앱)
 contact.html            Contact — 메일, 위치·활동 범위, 자주 묻는 세 가지
 css/style.css           전체 스타일 (컬러·폰트 토큰은 :root)
 js/main.js              모바일 메뉴 토글, 스크롤 등장 효과
@@ -22,6 +23,7 @@ scripts/make_thumbs.py  thumbs/ 축소본(480px) 생성 + 붙여넣을 JSON 조�
 scripts/build_i18n.py   data/i18n/*.json → js/i18n-data.js 번들
 scripts/check_i18n.py   빠진 번역 키·사진 캡션 검사
 images/home/            히어로 사진(흑백 발골)
+images/builds/          AI Builds 페이지 사진(세미나·강의·앱 화면 — 긴 변 1200~1600px로 축소)
 images/shared/          스탬프 로고
 images/archive/         아카이브 사진 (YYYY/YYYY-MM-DD_slug/파일명.jpg + thumbs/)
 ```
@@ -68,7 +70,7 @@ images/archive/         아카이브 사진 (YYYY/YYYY-MM-DD_slug/파일명.jpg 
 - 화면 문구는 `data/i18n/<lang>.json`에 있습니다. HTML에는 `data-i18n="키"`(텍스트), `data-i18n-html="키"`(`<em>`·`<a>` 포함), `data-i18n-attr="alt:키"`(속성)로 키만 달고, 영어 원문은 HTML에 그대로 둡니다(영어는 번역 파일이 아니라 HTML이 원본).
 - 사진 캡션은 `data/i18n/gallery.<lang>.json` — 사진 `src`별 `title`·`alt`, 그리고 `places`에 장소 라벨을 넣습니다.
 - 문구를 고친 뒤에는 `python3 scripts/build_i18n.py`로 `js/i18n-data.js`를 다시 만들고, `python3 scripts/check_i18n.py`로 빠진 키가 없는지 확인하세요.
-- 직장 상호 비공개 원칙은 번역에도 그대로 적용됩니다 — 체크 스크립트가 번역문에 `deeplant`/`딥플랜트`가 들어가면 실패합니다.
+- 직장 상호 비공개 원칙은 번역에도 그대로 적용됩니다 — 체크 스크립트가 번역문에 `deeplant`/`딥플랜트`가 들어가면 실패합니다. `builds.html`도 같은 원칙으로, 현업 시스템은 “육가공 공장 / a working meat plant”으로만 적고 `AXER`로 표기합니다.
 
 ## 확인된 것만 쓰는 원칙
 

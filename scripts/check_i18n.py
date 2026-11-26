@@ -2,7 +2,7 @@
 """Check the translation set against the pages.
 
 Verifies that
-  * every data-i18n / data-i18n-html / data-i18n-attr key used in the four pages
+  * every data-i18n / data-i18n-html / data-i18n-attr key used in the five pages
     exists, non-empty, in ko / ja / zh / es;
   * the four dictionaries carry the same key set;
   * keys requested from JS (RonI18n.t('...')) exist;
@@ -19,7 +19,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LANGS = ["ko", "ja", "zh", "es"]
-PAGES = ["index.html", "about.html", "archive.html", "contact.html"]
+PAGES = ["index.html", "about.html", "archive.html", "builds.html", "contact.html"]
 BANNED = ["deepplant", "딥플랜트"]
 
 problems = []

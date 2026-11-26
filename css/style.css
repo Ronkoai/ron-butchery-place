@@ -1054,6 +1054,19 @@ body.lightbox-open { overflow: hidden; }
   text-decoration: none;
 }
 
+/* ---------- AI builds ---------- */
+.builds-intro { align-items: start; }
+.phone-portrait { max-width: 340px; }
+.phone-portrait img { border-radius: 16px; }
+.project-media.phone {
+  aspect-ratio: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-self: start;
+}
+.project-media.phone figure { border-radius: 16px; }
+.project-media.phone img { height: auto; object-fit: contain; }
+
 /* ---------- scroll reveal ---------- */
 .reveal {
   opacity: 0;
@@ -1099,6 +1112,9 @@ html[lang="zh-Hans"] :is(.eyebrow, .brand-sub, .pullquote cite, .status-label, .
   .recent-strip { grid-template-columns: repeat(2, 1fr); }
   .photo-grid { columns: 2; }
   .two-col { grid-template-columns: 1fr; gap: 4px; }
+  .nav-links { gap: 20px; }
+  .nav-links a { font-size: 0.85rem; }
+  .phone-portrait { max-width: 300px; }
 }
 
 @media (max-width: 640px) {
