@@ -1140,6 +1140,7 @@ html[lang="zh-Hans"] :is(.eyebrow, .brand-sub, .pullquote cite, .status-label, .
   }
   .nav-links.open { display: flex; }
   .nav-links a {
+    display: block;
     padding: 16px 22px;
     width: 100%;
     border-bottom: 1px solid var(--border);
