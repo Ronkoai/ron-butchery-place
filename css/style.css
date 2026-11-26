@@ -1067,6 +1067,7 @@ body.lightbox-open { overflow: hidden; }
 }
 .project-media.phone figure { border-radius: 16px; }
 .project-media.phone img { height: auto; object-fit: contain; }
+.project.phone-row { align-items: start; }
 
 /* ---------- scroll reveal ---------- */
 .reveal {
